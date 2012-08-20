@@ -1,0 +1,7 @@
+message CreateAccount {
+	required string username = 1;
+	required string password = 2;
+	required string email = 3;
+	required string first_name = 4;
+	required string last_name = 5;
+}
